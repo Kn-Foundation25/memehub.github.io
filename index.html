@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartWeb - Max</title>
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --accent: #2563eb;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            margin: 0;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-weight: 700;
+            letter-spacing: -1px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent);
+            margin-top: 40px;
+            border-left: 4px solid var(--accent);
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e2e8f0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card strong {
+            display: block;
+            margin-bottom: 12px;
+            font-size: 0.95rem;
+            color: var(--text-main);
+            order: -1;
+        }
+
+        video {
+            width: 100%;
+            height: 180px;
+            border-radius: 10px;
+            background: #000;
+            display: block;
+            object-fit: cover;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>SmartWeb de Max</h1>
+        <p style="color: var(--text-muted);">Gestionado por Max (Smartium)</p>
+    </header>
+
+    <h2>Videos MP4</h2>
+    <div class="grid">
+        <div class="card"><strong>a.mp4</strong><video controls preload="metadata"><source src="a.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>Android.mp4</strong><video controls preload="metadata"><source src="Android.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>angela.mp4</strong><video controls preload="metadata"><source src="angela.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>anime.mp4</strong><video controls preload="metadata"><source src="anime.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>apaga mi vela.mp4</strong><video controls preload="metadata"><source src="apaga mi vela.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>caca.mp4</strong><video controls preload="metadata"><source src="caca.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>don.mp4</strong><video controls preload="metadata"><source src="don.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>fsfbv.mp4</strong><video controls preload="metadata"><source src="fsfbv.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>jajaja.mp4</strong><video controls preload="metadata"><source src="jajaja.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>licencia.mp4</strong><video controls preload="metadata"><source src="licencia.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>luna bella.mp4</strong><video controls preload="metadata"><source src="luna bella.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>me convertí en un gato!</strong><video controls preload="metadata"><source src="me convertí en un gato! -v.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>Me das un bistec.mp4</strong><video controls preload="metadata"><source src="Me das un bistec.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>mi mama me dio un bistec</strong><video controls preload="metadata"><source src="mi mama me dio un bistec.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>mi papa.mp4</strong><video controls preload="metadata"><source src="mi papa.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>multiversos.mp4</strong><video controls preload="metadata"><source src="multiversos.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>nuevo amigo.mp4</strong><video controls preload="metadata"><source src="nuevo amigo.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>ok mañana.mp4</strong><video controls preload="metadata"><source src="ok mañana.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>ok nunca.mp4</strong><video controls preload="metadata"><source src="ok nunca.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>ok tomorrow.mp4</strong><video controls preload="metadata"><source src="ok tomorrow.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>random2.mp4</strong><video controls preload="metadata"><source src="random2.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>si.mp4</strong><video controls preload="metadata"><source src="si.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>sol.mp4</strong><video controls preload="metadata"><source src="sol.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>suaves.mp4</strong><video controls preload="metadata"><source src="suaves.mp4" type="video/mp4"></video></div>
+        <div class="card"><strong>tutorial.mp4</strong><video controls preload="metadata"><source src="tutorial.mp4" type="video/mp4"></video></div>
+    </div>
+
+    <h2>Audios MP3</h2>
+    <div class="grid">
+        <div class="card">
+            <strong>Golden.mp3</strong>
+            <audio controls preload="metadata"><source src="Golden.mp3" type="audio/mpeg"></audio>
+        </div>
+        <div class="card">
+            <strong>Hear me now.mp3</strong>
+            <audio controls preload="metadata"><source src="Hear me now.mp3" type="audio/mpeg"></audio>
+        </div>
+        <div class="card">
+            <strong>Its Raining Tacos</strong>
+            <audio controls preload="metadata"><source src="its-raining-tacos-full-song-made-with-Voicemod.mp3" type="audio/mpeg"></audio>
+        </div>
+        <div class="card">
+            <strong>Let me love you.mp3</strong>
+            <audio controls preload="metadata"><source src="Let me love you.mp3" type="audio/mpeg"></audio>
+        </div>
+        <div class="card">
+            <strong>Sorry.mp3</strong>
+            <audio controls preload="metadata"><source src="sorry.mp3" type="audio/mpeg"></audio>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
